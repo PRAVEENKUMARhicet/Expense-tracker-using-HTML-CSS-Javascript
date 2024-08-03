@@ -1,0 +1,108 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: burlywood;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form input, form select, form button {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: blanchedalmond;
+    color: green;
+}
+
+.expense-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.expense-table th, .expense-table td {
+    padding: 10px;
+    border: 1px solid white;
+    text-align: left;
+}
+
+.expense-table th {
+    background-color: whitesmoke;
+}
+
+.total-amount {
+    text-align: right;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.filter {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.filter label {
+    margin-right: 10px;
+}
+
+.filter select{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#expense-list button:nth-child(1){
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#expense-list button:nth-child(2){
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#expense-list button:nth-child(1):hover{
+    background-color: white;
+    color: green;
+}
+
+#expense-list button:nth-child(2):hover{
+    background-color: white;
+    color: red;
+}
